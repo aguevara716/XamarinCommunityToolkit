@@ -39,13 +39,21 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Behaviors
 				nameof(MultiValidationBehavior),
 				AppResources.MultiValidationShortDescription),
 			new SectionModel(
+				typeof(RequiredStringValidationBehaviorPage),
+				nameof(RequiredStringValidationBehavior),
+				AppResources.RequiredStringValidationShortDescription),
+			new SectionModel(
 				typeof(UserStoppedTypingBehaviorPage),
 				nameof(UserStoppedTypingBehavior),
 				AppResources.UserStoppedTypingBehaviorShortDescription),
 			new SectionModel(
 				typeof(ImpliedOrderGridBehaviorPage),
 				nameof(ImpliedOrderGridBehavior),
-				AppResources.AutoGridLayoutBehaviorDescription)
+				AppResources.AutoGridLayoutBehaviorDescription),
+			new SectionModel(
+				typeof(MaxLengthReachedBehaviorPage),
+				nameof(MaxLengthReachedBehavior),
+				AppResources.MaxLengthReachedBehaviorShortDescription),
 		};
 	}
 }
