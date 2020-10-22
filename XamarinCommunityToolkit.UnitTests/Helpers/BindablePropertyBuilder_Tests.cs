@@ -9,7 +9,7 @@ namespace Xamarin.CommunityToolkit.UnitTests.Helpers
 	{
 		// property name
 		[Fact]
-		public void InitializeWithPropertyNameShouldSetBindablePropertyPropertyName()
+		public void SetPropertyNameShouldSetBindablePropertyPropertyName()
 		{
 			var propertyName = "asdf";
 
